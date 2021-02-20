@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            border-color:red;
+            border-style:solid;
+            /* display:inline;  블럭 크기만큼 border지정 */
+            /* 참고 : display:none 지정시 해당 태그를 표시 안 함 */
+            padding:20px; /* 글씨와 border사이의 여백 */
+            margin:20px; /* tag와 tag사이의 여백 */
+            width:100px;
+        }
+        /*
+        a {
+            border-width:5px;
+            border-color:red;
+            border-style:solid;
+            display:block; /* 해당 행 전체 border지정 
+        }
+        
+        /*
+        h1, a {
+            내용
+        }
+        이런 식으로 코드의 양을 획기적으로 줄일 수 있다.
+        */
+    </style>
+    <!--
+        h1 태그의 경우 화면 전체를 border 지정 :: block level element
+        a 태그의 경우 링크 사이즈만큼 border 지정 :: inline element
+    -->
+</head>
+<body>
+    <h1>CSS</h1>
+    <h1>CSS</h1>
+    <!-- <a href = "https://www.naver.com">naver</a> -->
+</body>
+</html>
+
+<!--
+    참고 :
+    페이지 우클릭 -> 요소 검사를 누르면 해당 html태그가 어떤 css style의 영향을 받고 있는지 알 수 있다.
+-->
